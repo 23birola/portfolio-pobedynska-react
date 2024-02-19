@@ -1,26 +1,14 @@
+import technologies from './../utils/skills.json'
+
 export default function Contacts() {
   return (
-  <section className='page-section' id='contacts'>
-      <h2>Contact Me</h2>
-      <ul className='contact-list info-wrapper'>
-        <li>
-          <a className='contact-link' type='tel' href='tel:+447774111111'>+44 7774 111 111</a>
-        </li>
-        <li>
-          <a className='contact-link' type='email' href="mailto:23birola@gmail.com">23birola@gmail.com</a>
-        </li>
-        <li>
-          <a className='contact-link' type='tel' href='https://github.com/23birola'>GitHub</a>
-        </li>
-        <li>
-          <a className='contact-link' href="#">Twitter</a>
-        </li>
-        <li>
-          <a className='contact-link' href="https://drive.google.com/file/d/1cAu1BFpT0tEmAbpjfCJF4RwWskpwtIPm/view?usp=drive_link">
-            <button type="button" className="btn btn-success">my Resume</button>
-          </a>
-        </li>
-      </ul>
-    </section>
+  <section className='page-section about-me' id='skills'>
+      <h2>Skills</h2>
+      <div className='info-wrapper'>
+        <p>
+          {technologies.map((data) => (<img src={data.link} alt={data.name} key={data.id} />))}
+        </p>
+      </div>
+  </section>
   );
 }

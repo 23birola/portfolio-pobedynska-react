@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Jamboton from './Jamboton';
-import WorksWrapper from './WorksWrapper';
+import WorksWrapper from './Works';
 import About from './About';
 import Contacts from './Skills';
 
@@ -38,10 +38,6 @@ export default function Navigation() {
       </div>
     </div>
       </nav>
-      <Jamboton />
-      <WorksWrapper />
-      <About />
-      <Contacts/>
   </>
   );
 }

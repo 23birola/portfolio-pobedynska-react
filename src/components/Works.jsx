@@ -1,5 +1,5 @@
 import WorkCard from './WorkCard';
-import workData from './../utils/works.json';
+import workData from '../utils/works.json';
 
 //const workData = JSON.parse(data);
 console.log(workData);
