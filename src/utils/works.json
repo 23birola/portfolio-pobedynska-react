@@ -1,0 +1,32 @@
+ [
+  {
+    "id": "12345",
+    "url": "https://23birola.github.io/portfolio-pobedynska/",
+    "name": "Portfolio",
+    "skills": ["HTML", "CSS"]
+  },
+  {
+    "id": "17775",
+    "url": "https://23birola.github.io/code-refactor/",
+    "name": "Horison",
+    "skills": ["HTML", "CSS"]
+  },
+  {
+    "id": "45679",
+    "url": "https://23birola-phonebook.netlify.app/contacts",
+    "name": "Contacts book",
+    "skills": ["React.js", "HTML5", "CSS3"]
+  },
+  {
+    "id": "12986",
+    "url": "https://23birola.github.io/stopwatch_react",
+    "name": "Stopwatch",
+    "skills": ["HTML", "CSS", "Bootstrap", "React", "JavaScript"]
+  },
+  {
+    "id": "19684",
+    "url": "https://23birola.github.io/stopwatch_react", 
+    "name": "Run Buddy",
+    "skills": ["HTML", "CSS", "Bootstrap", "React", "JavaScript"]
+  }
+]
