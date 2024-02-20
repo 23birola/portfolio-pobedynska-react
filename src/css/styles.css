@@ -37,6 +37,12 @@ p {
   margin-bottom: 20px;
 }
 
+.navbar-nav {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .body {
   width: auto;
   margin: 10px;
@@ -52,11 +58,9 @@ p {
   padding: 15px;
 }
 
-.hero-wrapper {
-  padding: 10px;
-}
-
 .page-section h2 {
+  font-size: 30px;
+  line-height: normal;
   border-bottom: 3px solid var(--font-color);
   margin-bottom: 10px;
   width: auto;
@@ -75,9 +79,12 @@ p {
 .nav-item {
   display: inline-block;
   font-size: 20px;
-  border-bottom: 2px solid var(--main-color);
-  border-color: var(--main-color);
-  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: var(--main-color);
+  padding: 5px;
+  width: 120px;
+  color: var(--main-color);
+  border-radius: 5px;
 }
 
 .nav-link {
@@ -100,7 +107,6 @@ p {
 
 .hero-wrapper {
   border-radius: 30px;
-  padding: 20px;
 }
 
 .hero {
@@ -108,14 +114,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 25px;
-  padding-right: 25px;
 }
 
 .hero-photo {
   border-radius: 50%;
   object-fit: cover;
-  margin: 20px;
   height: 200px;
   width: 200px;
   border: 4px solid var(--main-color);
@@ -136,7 +139,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
   color: var(--font-color);
-  margin-bottom: 20px;
+  margin: 10px;
 }
 
 .about-me p {
@@ -229,6 +232,10 @@ body {
       width: 1027px;
     }
 
+.hero-wrapper {
+  padding: 20px;
+}
+
 .nav-wrapper {
   display: flex;
   justify-content: end;
@@ -258,4 +265,23 @@ body {
   height: 100%;
 }
 
+.hero {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.hero-photo {
+  margin: 20px;
+}
+
+.contact-list{
+  flex-direction: row;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+
+}
 }

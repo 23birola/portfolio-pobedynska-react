@@ -2,7 +2,7 @@
   {
     "id": "1",
     "url": "https://github.com/23birola/weather-dashboard-pobedynska", 
-    "page-url":  "https://23birola.github.io/weather-dashboard-pobedynska/",
+    "pageUrl":  "https://23birola.github.io/weather-dashboard-pobedynska/",
     "name": "Weather dashbord",
     "img": "./src/images/projects/project-1.png",
     "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "API"],
@@ -11,7 +11,7 @@
    {
     "id": "2",
     "url": "https://github.com/23birola/work-day-scheduler-pobedynska", 
-    "page-url":  "https://23birola.github.io/work-day-scheduler-pobedynska/",
+    "pageUrl":  "https://23birola.github.io/work-day-scheduler-pobedynska/",
     "name": "Work Day Scheduler",
     "img": "./src/images/projects/project-2.png",
     "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "JQuery"],
@@ -20,7 +20,7 @@
      {
     "id": "3",
     "url": "https://github.com/23birola/countries-quiz-pobedynska", 
-    "page-url":  "https://23birola.github.io/countries-quiz-pobedynska/",
+    "pageUrl":  "https://23birola.github.io/countries-quiz-pobedynska/",
     "name": "Countries Quiz",
     "img": "./src/images/projects/project-3.png",
     "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery"],
@@ -30,7 +30,7 @@
     {
     "id": "4",
     "url": "https://github.com/blaztted/flavour-finder", 
-    "page-url":  "https://blaztted.github.io/flavour-finder/",
+    "pageUrl":  "https://blaztted.github.io/flavour-finder/",
     "name": "Flavour Finder",
     "img": "./src/images/projects/project-4.png",
     "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "Spoonacular API"],
@@ -40,7 +40,7 @@
   {
     "id": "5",
     "url": "https://github.com/23birola/safe-password-generator", 
-    "page-url":  "https://23birola.github.io/safe-password-generator/",
+    "pageUrl":  "https://23birola.github.io/safe-password-generator/",
     "name": "Password generator",
     "img": "./src/images/projects/project-5.png",
     "skills": ["JavaScript", "HTML5", "CSS3"],
@@ -50,7 +50,7 @@
   {
     "id": "6",
     "url": "https://github.com/23birola/goit-react-hw-05-movies", 
-    "page-url":  "https://23birola-goit-react-hw-05-movies.netlify.app/",
+    "pageUrl":  "https://23birola-goit-react-hw-05-movies.netlify.app/",
     "name": "Movie Finder",
     "img": "./src/images/projects/project-6.png",
     "skills": ["HTML", "CSS", "JavaScript", "React", "Hooks"],
