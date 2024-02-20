@@ -1,4 +1,4 @@
-export default function Jamboton() {
+export default function Jumbotron() {
   return (
     <section className='hero-banner'>
     <div className="container-fluid py-5 hero">
@@ -7,7 +7,7 @@ export default function Jamboton() {
           <p className="col-md-8 fs-4 hero-info">Frontend developer</p>
           
       </div>
-      <img src="/src/images/photo.png" className='hero-photo img-fluid' alt="portrait"/>
+      <img src="./images/photo.png" className='hero-photo img-fluid' alt="portrait"/>
     </div>
   </section>
   );

@@ -18,7 +18,7 @@ export default function Contacts() {
           <a className='contact-link' href="#">Twitter</a>
         </li>
         <li>
-          <a className='contact-link' href="https://drive.google.com/file/d/1cAu1BFpT0tEmAbpjfCJF4RwWskpwtIPm/view?usp=drive_link">
+          <a className='contact-link' href="https://drive.google.com/file/d/1kXZ5krq-IVlFWTqyKVvMwkg3zgyz5H_l/view?usp=drive_link">
             <button type="button" className="btn btn-success">my Resume</button>
           </a>
         </li>

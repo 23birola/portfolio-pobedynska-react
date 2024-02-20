@@ -14,8 +14,7 @@ export default function WorkCard({ data }) {
           <div className="card-body work-info">
             <h5 className="card-title">{data.name}</h5>
             <p className="card-text">{data.skills.join(', ')}</p>
-          <Link to={data.url} className='project-github'>GitHub Link</Link>
-          <Link to={data.pageUrl} className='project-page'>Project page</Link>
+          <Link to={data.pageUrl} className='project-page'>Project page</Link> | <Link to={data.url} className='project-github'>GitHub Link</Link> 
           </div>
       </div>
     </div>

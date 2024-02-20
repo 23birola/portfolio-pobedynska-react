@@ -33,7 +33,7 @@
     "pageUrl":  "https://blaztted.github.io/flavour-finder/",
     "name": "Flavour Finder",
     "img": "./images/projects/project-4.png",
-    "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "Spoonacular API"],
+    "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Spoonacular API"],
      "description": "The application that allow an 'hungry' user to find recipes ideas for and add it to favouriets"
   },
 
