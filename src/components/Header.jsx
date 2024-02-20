@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import logoImg from '../images/logo.png';
 
 export default function Navigation() {
   return (
@@ -7,7 +6,7 @@ export default function Navigation() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
     <div className="container-fluid">
     <Link to="https://github.com/23birola" className="navbar-brand">
-      <img src={logoImg} alt="logo" />
+      <img src='./images/logo.png' alt="logo" />
     </Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
