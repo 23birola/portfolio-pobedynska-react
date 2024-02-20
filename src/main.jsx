@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // import "~bootstrap/scss/bootstrap";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 // import * as bootstrap from 'bootstrap'
+import './css/reset.css'
 import './css/styles.css'
 
 

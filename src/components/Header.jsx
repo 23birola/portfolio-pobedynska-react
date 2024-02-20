@@ -1,9 +1,4 @@
 import { Link } from 'react-router-dom';
-import Jamboton from './Jamboton';
-import WorksWrapper from './Works';
-import About from './About';
-import Contacts from './Skills';
-
 
 export default function Navigation() {
   return (
@@ -20,7 +15,10 @@ export default function Navigation() {
       <div className="collapse navbar-collapse nav-wrapper" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to="/work">Work</Link>
+            <Link to="/home">Home</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/work">Projects</Link>
           </li>
           <li className="nav-item">
             <Link to="/skills">Skills</Link>

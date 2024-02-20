@@ -1,32 +1,59 @@
  [
   {
-    "id": "12345",
-    "url": "https://23birola.github.io/portfolio-pobedynska/",
-    "name": "Portfolio",
-    "skills": ["HTML", "CSS"]
+    "id": "1",
+    "url": "https://github.com/23birola/weather-dashboard-pobedynska", 
+    "page-url":  "https://23birola.github.io/weather-dashboard-pobedynska/",
+    "name": "Weather dashbord",
+    "img": "./src/images/projects/project-1.png",
+    "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "API"],
+     "description": "This is a weather dashboard with form inputs that enables traveler to see the weather outlook for multiple cities so that they can plan a trip accordingly"
   },
-  {
-    "id": "17775",
-    "url": "https://23birola.github.io/code-refactor/",
-    "name": "Horison",
-    "skills": ["HTML", "CSS"]
+   {
+    "id": "2",
+    "url": "https://github.com/23birola/work-day-scheduler-pobedynska", 
+    "page-url":  "https://23birola.github.io/work-day-scheduler-pobedynska/",
+    "name": "Work Day Scheduler",
+    "img": "./src/images/projects/project-2.png",
+    "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "JQuery"],
+     "description": "A simple calendar application that allows a user to save events for each hour of the day by modifying starter code"
   },
-  {
-    "id": "45679",
-    "url": "https://23birola-phonebook.netlify.app/contacts",
-    "name": "Contacts book",
-    "skills": ["React.js", "HTML5", "CSS3"]
+     {
+    "id": "3",
+    "url": "https://github.com/23birola/countries-quiz-pobedynska", 
+    "page-url":  "https://23birola.github.io/countries-quiz-pobedynska/",
+    "name": "Countries Quiz",
+    "img": "./src/images/projects/project-3.png",
+    "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery"],
+     "description": "The 'Countries Quiz' is an engaging and educational quiz game that challenges players with questions about various countries and their capitals."
   },
-  {
-    "id": "12986",
-    "url": "https://23birola.github.io/stopwatch_react",
-    "name": "Stopwatch",
-    "skills": ["HTML", "CSS", "Bootstrap", "React", "JavaScript"]
+
+    {
+    "id": "4",
+    "url": "https://github.com/blaztted/flavour-finder", 
+    "page-url":  "https://blaztted.github.io/flavour-finder/",
+    "name": "Flavour Finder",
+    "img": "./src/images/projects/project-4.png",
+    "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "Spoonacular API"],
+     "description": "The application that allow an 'hungry' user to find recipes ideas for and add it to favouriets"
   },
+
   {
-    "id": "19684",
-    "url": "https://23birola.github.io/stopwatch_react", 
-    "name": "Run Buddy",
-    "skills": ["HTML", "CSS", "Bootstrap", "React", "JavaScript"]
+    "id": "5",
+    "url": "https://github.com/23birola/safe-password-generator", 
+    "page-url":  "https://23birola.github.io/safe-password-generator/",
+    "name": "Password generator",
+    "img": "./src/images/projects/project-5.png",
+    "skills": ["JavaScript", "HTML5", "CSS3"],
+    "description": "Password Generator is an application that generate a random password based on selected criteria."
+  },
+
+  {
+    "id": "6",
+    "url": "https://github.com/23birola/goit-react-hw-05-movies", 
+    "page-url":  "https://23birola-goit-react-hw-05-movies.netlify.app/",
+    "name": "Movie Finder",
+    "img": "./src/images/projects/project-6.png",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Hooks"],
+     "description": "The application that allow an user to find the movie they like"
   }
 ]
