@@ -1,5 +1,3 @@
-import Navigation from './components/Navigation';
-import Jamboton from './components/Jamboton';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
@@ -8,6 +6,8 @@ import About from './components/About';
 import Works from './components/Works';
 import Contacts from './components/Contacts';
 import Skills from './components/Skills';
+import Header from './components/Header';
+import NotFound from './components/NotFound'
 
 // import * as bootstrap from 'bootstrap'
 // import * as styles from './css/styles.css'
@@ -15,14 +15,15 @@ import Skills from './components/Skills';
 export default function App() {
   return (
     <>
-    <Router>
+      <Router>
+        <Header/>
         <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="about" element={<About/>} />
         <Route path="work" element={<Works />} />
         <Route path="skills" element={<Skills/>} />
-        {/* Define a route that will have descendant routes */}
-        <Route path="contacts/*" element={<Contacts/>} />
+        <Route path="contacts/*" element={<Contacts />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       </Router>
     </>

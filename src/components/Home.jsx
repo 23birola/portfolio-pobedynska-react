@@ -1,12 +1,15 @@
-import Navigation from './Navigation';
+import Navigation from './Header';
 import Jamboton from './Jamboton';
+import About from './About';
+import Skills from './Skills'
 
 
 export default function Home() {
   return (
     <>
-      <Navigation />
-      <Jamboton/>
+      <Jamboton />
+      <About />
+      <Skills/>
     </>
   );
 }

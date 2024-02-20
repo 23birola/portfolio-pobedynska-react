@@ -1,3 +1,19 @@
 # portfolio-pobedynska-react
 
-<a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+## Description
+
+I'd like to represent you my portfolio, which showcase my skills, work samples and contact information. Developing this project I was using HTML, CSS, GitHub, Bootstrap, Icons8 and excalidraw.
+
+**Here is the project outline**
+
+![project outline](assets/images/project-outline.png)
+
+**Here is the link to this project** https://github.com/23birola/portfolio-pobedynska-react
+
+**Here is the project screenshot**
+
+![website screenshot](assets/images/screencapture1.png)
+
+## License
+
+This project is licensed under the MIT License. For details, please see the LICENSE file. [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
