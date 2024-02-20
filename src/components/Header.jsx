@@ -30,7 +30,7 @@ export default function Navigation() {
             <Link to="/contacts">Contact me</Link>
               </li>
           <li className="nav-item">
-            <Link to="/resume">Resume</Link>
+            <Link to="https://www.canva.com/design/DAEpi4lvcj8/MiAW8TyiQJgbLi0ICC5aZA/view?utm_content=DAEpi4lvcj8&utm_campaign=designshare&utm_medium=link&utm_source=editor">Resume</Link>
           </li>
         </ul>
       </div>

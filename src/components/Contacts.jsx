@@ -1,3 +1,5 @@
+import Form from "./ContactForm";
+
 export default function Contacts() {
   return (
      <section className='page-section' id='contacts'>
@@ -21,6 +23,7 @@ export default function Contacts() {
           </a>
         </li>
       </ul>
+      <Form/>
     </section>
   )
 }

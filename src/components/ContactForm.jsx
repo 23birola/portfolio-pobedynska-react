@@ -1,41 +1,10 @@
-export default function ContactForm(props) {
-  return (
-    <form>
-      <div className="mb-3">
-        <label htmlFor="search" className="form-label">
-          Search:
-        </label>
-        <input
-          onChange={props.handleInputChange}
-          value={props.value}
-          name="search"
-          type="text"
-          className="form-control"
-          placeholder="Search For a Movie"
-          id="search"
-        />
-        <br />
-        <button
-          onClick={props.handleFormSubmit}
-          type="submit"
-          className="btn btn-primary"
-        >
-          Search
-        </button>
-      </div>
-    </form>
-  );
-}
-
-import React, { useState } from 'react';
-import './style.css';
-
-function Form() {
+import { React, useState } from "react";
+export default function Form() {
   // Setting the component's initial state
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    password: '',
+    nameame: '',
+    email: '',
+    message: '',
   });
 
   const handleInputChange = (event) => {
@@ -77,29 +46,29 @@ function Form() {
   return (
     <div>
       <p>
-        Hello {formData.firstName} {formData.lastName}
+        Hello. Write me a message
       </p>
       <form className="form">
         <input
-          value={formData.firstName}
-          name="firstName"
+          value={formData.Name}
+          name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="First Name"
         />
         <input
-          value={formData.lastName}
-          name="lastName"
+          value={formData.email}
+          name="email"
           onChange={handleInputChange}
           type="text"
-          placeholder="Last Name"
+          placeholder="aaaaa@gmail.com"
         />
-        <input
-          value={formData.password}
-          name="password"
+        <textarea
+          value={formData.text}
+          name="text"
           onChange={handleInputChange}
-          type="password"
-          placeholder="Password"
+          type="text"
+          placeholder="Hello"
         />
         <button onClick={handleFormSubmit}>Submit</button>
       </form>
@@ -107,6 +76,5 @@ function Form() {
   );
 }
 
-export default Form;
 
 
