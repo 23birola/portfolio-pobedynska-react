@@ -9,7 +9,7 @@ export default function Contacts() {
         <p className='icons'>
           {technologies.map((data) => (<img src={data.link} alt={data.name} key={data.id}/>))}
         </p>
-        <p>icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+        <div>icons by <a target="_blank" href="https://icons8.com">Icons8</a></div>
       </div>
   </section>
   );
