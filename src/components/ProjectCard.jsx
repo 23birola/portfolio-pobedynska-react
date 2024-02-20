@@ -9,7 +9,8 @@ export default function WorkCard({ data }) {
   return (
     <div className='project'>
       <div className="card">
-       <img src={data.img} alt={data.name} className='card-img' />
+       
+        <img src={data.img} alt={data.name} className='card-img' />
           <div className="card-body work-info">
             <h5 className="card-title">{data.name}</h5>
             <p className="card-text">{data.skills.join(', ')}</p>

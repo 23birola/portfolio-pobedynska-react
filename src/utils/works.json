@@ -4,7 +4,7 @@
     "url": "https://github.com/23birola/weather-dashboard-pobedynska", 
     "pageUrl":  "https://23birola.github.io/weather-dashboard-pobedynska/",
     "name": "Weather dashbord",
-    "img": "./src/images/projects/project-1.png",
+    "img": "./images/projects/project-1.png",
     "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "API"],
      "description": "This is a weather dashboard with form inputs that enables traveler to see the weather outlook for multiple cities so that they can plan a trip accordingly"
   },
@@ -13,7 +13,7 @@
     "url": "https://github.com/23birola/work-day-scheduler-pobedynska", 
     "pageUrl":  "https://23birola.github.io/work-day-scheduler-pobedynska/",
     "name": "Work Day Scheduler",
-    "img": "./src/images/projects/project-2.png",
+    "img": "./images/projects/project-2.png",
     "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "JQuery"],
      "description": "A simple calendar application that allows a user to save events for each hour of the day by modifying starter code"
   },
@@ -22,7 +22,7 @@
     "url": "https://github.com/23birola/countries-quiz-pobedynska", 
     "pageUrl":  "https://23birola.github.io/countries-quiz-pobedynska/",
     "name": "Countries Quiz",
-    "img": "./src/images/projects/project-3.png",
+    "img": "./images/projects/project-3.png",
     "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery"],
      "description": "The 'Countries Quiz' is an engaging and educational quiz game that challenges players with questions about various countries and their capitals."
   },
@@ -32,7 +32,7 @@
     "url": "https://github.com/blaztted/flavour-finder", 
     "pageUrl":  "https://blaztted.github.io/flavour-finder/",
     "name": "Flavour Finder",
-    "img": "./src/images/projects/project-4.png",
+    "img": "./images/projects/project-4.png",
     "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "Spoonacular API"],
      "description": "The application that allow an 'hungry' user to find recipes ideas for and add it to favouriets"
   },
@@ -42,7 +42,7 @@
     "url": "https://github.com/23birola/safe-password-generator", 
     "pageUrl":  "https://23birola.github.io/safe-password-generator/",
     "name": "Password generator",
-    "img": "./src/images/projects/project-5.png",
+    "img": "./images/projects/project-5.png",
     "skills": ["JavaScript", "HTML5", "CSS3"],
     "description": "Password Generator is an application that generate a random password based on selected criteria."
   },
@@ -52,7 +52,7 @@
     "url": "https://github.com/23birola/goit-react-hw-05-movies", 
     "pageUrl":  "https://23birola-goit-react-hw-05-movies.netlify.app/",
     "name": "Movie Finder",
-    "img": "./src/images/projects/project-6.png",
+    "img": "./images/projects/project-6.png",
     "skills": ["HTML", "CSS", "JavaScript", "React", "Hooks"],
      "description": "The application that allow an user to find the movie they like"
   }
