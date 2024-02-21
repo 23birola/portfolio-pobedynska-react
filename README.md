@@ -2,11 +2,11 @@
 
 ## Description
 
-I'd like to represent you my portfolio, which showcase my skills, work samples and contact information. Developing this project I was using HTML, CSS, GitHub, Bootstrap, Icons8 and excalidraw.
+I'd like to represent you my portfolio, which showcase my skills, work samples and contact information. Developing this project I was using HTML, CSS, GitHub, Bootstrap, React, React Routs, Icons8 and excalidraw.
 
 **Here is the project outline**
 
-![project outline](assets/images/project-outline.png)
+![project outline](images/demo.png)
 
 **Here is the link to this project** https://github.com/23birola/portfolio-pobedynska-react
 
