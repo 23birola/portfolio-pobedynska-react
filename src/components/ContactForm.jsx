@@ -2,7 +2,7 @@ import { React, useState } from "react";
 export default function Form() {
   // Setting the component's initial state
   const [formData, setFormData] = useState({
-    nameame: '',
+    userName: '',
     email: '',
     message: '',
   });
@@ -11,10 +11,6 @@ export default function Form() {
     // Getting the value and name of the input which triggered the change
     let value = event.target.value;
     const name = event.target.name;
-
-    if (name === 'password') {
-      value = value.substring(0, 15);
-    }
     // Updating the input's state
     setFormData({
       ...formData,
@@ -23,66 +19,50 @@ export default function Form() {
   };
 
   const handleFormSubmit = (event) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
-    if (!formData.firstName || !formData.lastName) {
-      alert('Fill out your first and last name please!');
-    } else if (formData.password.length < 6) {
-      alert(
-        `Choose a more secure password ${formData.firstName} ${formData.lastName}`
-      );
+    if (!formData.userName || !formData.email) {
+      alert('Fill out your name and email please!');
     } else {
-      alert(`Hello ${formData.firstName} ${formData.lastName}`);
+      alert(`Hello ${formData.userName}. Thank you for your message!`);
     }
 
     setFormData({
-      firstName: '',
-      lastName: '',
-      password: '',
+      userName: '',
+      email: '',
+      message: '',
     });
   };
 
-  // Notice how each input has a `value`, `name`, and `onChange` prop
   return (
     <div>
-      <p>
-        Hello. Write me a message
-      </p>
+      <h3>
+        Hello. Write me a message!
+      </h3>
+
       <form className="form">
         <div className="mb-3">
-        <label for="exampleFormControlInput1" className="form-label">Email address</label>
-        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+          <input type="text" className="form-control" id="name" placeholder="name"
+          value={formData.userName}
+          name="userName"
+          onChange={handleInputChange}/>
         </div>
         <div className="mb-3">
-        <label for="exampleFormControlInput1" className="form-label">Email address</label>
-        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-        </div>
-        <div className="mb-3">
-        <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
-        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <input
-          value={formData.Name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="First Name"
-        />
-        <input
+          <input type="text" className="form-control" id="email" placeholder="name@example.com"
           value={formData.email}
           name="email"
+          onChange={handleInputChange}/>
+        </div>
+        <div className="mb-3">
+          <textarea className="form-control" id="text" rows="3"
+          value={formData.message}
+          name="message"
           onChange={handleInputChange}
           type="text"
-          placeholder="aaaaa@gmail.com"
-        />
-        <textarea
-          value={formData.text}
-          name="text"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Hello"
-        />
-        <button onClick={handleFormSubmit}>Submit</button>
+          placeholder="Hello"></textarea>
+        </div>
+        <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3" onClick={handleFormSubmit}>Send</button>
+        </div>
       </form>
     </div>
   );
