@@ -1,11 +1,6 @@
 import { Link } from 'react-router-dom';
 
 export default function WorkCard({ data }) {
-  const cardStyle = {
-    backgroundImage: `url(${data.img})`, // Set the background image URL here
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-  };
   return (
     <div className='project'>
       <div className="card">
@@ -18,6 +13,5 @@ export default function WorkCard({ data }) {
           </div>
       </div>
     </div>
-    
   );
 }

@@ -1,8 +1,7 @@
 import ProjectCard from './ProjectCard';
 import workData from '../utils/works.json';
 
-//const workData = JSON.parse(data);
-console.log(workData);
+
 export default function WorksWrapper() {
   return (
     <section className='page-section' id='work'>

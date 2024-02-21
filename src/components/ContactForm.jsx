@@ -60,8 +60,8 @@ export default function Form() {
           type="text"
           placeholder="Hello"></textarea>
         </div>
-        <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3" onClick={handleFormSubmit}>Send</button>
+        <div className="col-auto">
+        <button type="submit" className="btn btn-primary mb-3" onClick={handleFormSubmit}>Send</button>
         </div>
       </form>
     </div>
