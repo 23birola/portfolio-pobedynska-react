@@ -12,7 +12,7 @@ I'd like to represent you my portfolio, which showcase my skills, work samples a
 
 **Here is the project screenshot**
 
-![website screenshot](assets/images/screencapture1.png)
+![website screenshot](/publick/images/screencapture1.png)
 
 ## License
 
