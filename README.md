@@ -6,7 +6,7 @@ I'd like to represent you my portfolio, which showcase my skills, work samples a
 
 **Here is the project outline**
 
-![project outline](public/images/demo.png)
+![project outline](/public/images/demo.png)
 
 **Here is the link to this project** https://github.com/23birola/portfolio-pobedynska-react
 
