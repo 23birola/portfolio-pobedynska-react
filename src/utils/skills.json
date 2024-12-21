@@ -1,0 +1,11 @@
+[
+  { "id":"1", "name": "JavaScript", "link": "./images/technologies/icons8-javascript.svg"},
+  { "id":"2", "name": "React", "link": "./images/technologies/icons8-react-native.svg" },
+  { "id":"3", "name": "Node.js", "link": "./images/technologies/icons8-nodejs.svg" },
+  { "id":"4", "name": "HTML5", "link": "./images/technologies/icons8-html-5.svg" },
+  { "id":"5", "name": "CSS3", "link": "./images/technologies/icons8-css3.svg" },
+  { "id":"6", "name": "Git", "link": "./images/technologies/icons8-git.svg" },
+  { "id":"7", "name": "GitHub", "link": "./images/technologies/icons8-github.svg" },
+  { "id":"8", "name": "Bootstrap", "link": "./images/technologies/icons8-bootstrap-logo.svg" },
+  { "id":"9", "name": "Vite", "link": "./images/technologies/icons8-vite.svg" }
+]
