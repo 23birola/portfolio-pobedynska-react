@@ -123,12 +123,12 @@ export default function Navigation() {
   </li>
   <li className="col-span-1">
     <a
-      href="https://drive.google.com/file/d/1BK8SgnWA4U_hEHC_H_VwCcngRqfUfimw/view?usp=sharing"
+      href="https://drive.google.com/file/d/1mBndC2zpAL0AQw9aNQXW945uq9eBQPb5/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className="block text-center w-full py-2 text-gray-700 hover:text-blue-500"
     >
-      Resume
+      My CV
     </a>
   </li>
 </ul>
