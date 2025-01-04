@@ -129,11 +129,13 @@ export default function Form() {
           <FontAwesomeIcon icon={faEnvelope} className="text-500 text-2xl mr-2" />
           </a>
         </div>
-        <button 
-          className="bg-green-500 shadow-inner text-white px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 mt-5"
-        >
-          My CV
-        </button>
+        <button
+  className="bg-green-500 shadow-inner text-white px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 mt-5"
+  onClick={() => window.open('https://drive.google.com/file/d/1mBndC2zpAL0AQw9aNQXW945uq9eBQPb5/view?usp=sharing', '_blank')}
+>
+  My CV
+</button>
+
       </div>
     </div>
   );
