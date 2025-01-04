@@ -33,6 +33,12 @@ h6 {
   margin: 0;
 }
 
+body {
+  width: auto;
+  margin: 10px;
+  background-color: var(--background-color);
+}
+
 p {
   margin: 0;
   font-size: 16px;
@@ -48,18 +54,13 @@ p {
   justify-content: space-around;
 }
 
-body {
-  width: auto;
-  margin: 10px;
-  background-color: var(--background-color);
-}
-
 .icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 10px;
 }
+
 .page-wrapper {
   padding: 15px;
 }
@@ -70,16 +71,6 @@ body {
   border-bottom: 3px solid var(--font-color);
   margin-bottom: 10px;
   width: auto;
-}
-
-.contact-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.contact-list li {
-  margin: 10px 15px;
 }
 
 .project-github{
@@ -125,25 +116,6 @@ body {
   font-size: 16px;
 }
 
-.contact-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-position: center;
-  background-size: 100%;
-}
-
-.contact-link {
-  color: var(--font-color);
-  border-bottom: 4px solid var(--font-color);
-  padding-bottom: 3px;
-}
-
-.contact-link:hover {
-  background-color: var(--font-color);
-  color: var(--main-color);
-}
-
 @media only screen and (min-width: 600px) {
 
 body {
@@ -175,19 +147,6 @@ body {
   padding-right: 8px;
   margin-left: 20px;
   margin-bottom: 20px;
-}
-
-.hero {
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.hero-photo {
-  margin: 20px;
-}
-
-.contact-list{
-  flex-direction: row;
 }
 
 .nav-item {

@@ -6,6 +6,8 @@ import Contacts from './components/Contacts';
 import Skills from './components/Skills';
 import Header from './components/Header';
 import NotFound from './components/NotFound'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function App() {
   return (
@@ -22,6 +24,7 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
       </Routes>
       </Router>
+      <ToastContainer />
     </>
   );
 }

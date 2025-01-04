@@ -8,26 +8,29 @@ import {
   faBootstrap,
 } from '@fortawesome/free-brands-svg-icons';
 import { faVial, faTerminal, faBox, faDatabase } from '@fortawesome/free-solid-svg-icons';
+import TailwindLogo from '/images/technologies/tailwind.svg';
 
 
 const links = [
   { name: 'Projects', href: '/work' },
-  { name: 'Contact me', href: '/contacts' },
+  { name: 'Contacts', href: '/contacts' },
   { name: 'My CV', href: 'https://drive.google.com/file/d/1BK8SgnWA4U_hEHC_H_VwCcngRqfUfimw/view?usp=sharing' },
 ]
 
 
 export default function Jumbotron() {
   return (
-    /*<section className='hero-banner'>
-     <img src="./images/hero-5.png" className='img-fluid' alt="hero"/>
-    </section>*/
-    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-      <img
-        alt=""
-        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-        className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"
-      />
+       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+    <video
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"
+>
+  <source src="./images/1.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
       <div
         aria-hidden="true"
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -54,7 +57,9 @@ export default function Jumbotron() {
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-5xl">👋 Hi, I'm Olha</h2>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white hover:scale-105">
+        👋 Hi, I'm Olha
+        </h2>
           <p className="mt-4 text-lg font-medium text-white sm:text-xl">
           I’m an experienced <span className="font-semibold">front-end developer</span> with expertise in:
         </p>
@@ -85,6 +90,10 @@ export default function Jumbotron() {
             <span className="text-white">Bootstrap</span>
           </li>
           <li className="flex items-center space-x-2">
+          <img src={TailwindLogo} alt="Tailwind CSS Logo" className="w-6 h-6" />
+            <span className="text-white">Tailwind</span>
+          </li>
+          <li className="flex items-center space-x-2">
             <FontAwesomeIcon icon={faVial} className="text-green-500 text-2xl" />
             <span className="text-white">Jest</span>
           </li>
@@ -103,9 +112,9 @@ export default function Jumbotron() {
         </ul>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+          <div className="grid grid-cols-3 gap-x-5 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
-              <a key={link.name} href={link.href}>
+              <a key={link.name} href={link.href} className="animate-pulse">
                 {link.name} <span aria-hidden="true">&rarr;</span>
               </a>
             ))}
