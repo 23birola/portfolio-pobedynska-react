@@ -1,34 +1,6 @@
  [
   {
     "id": "1",
-    "url": "https://github.com/23birola/weather-dashboard-pobedynska", 
-    "pageUrl":  "https://23birola.github.io/weather-dashboard-pobedynska/",
-    "name": "Weather dashbord",
-    "img": "./images/projects/project-1.png",
-    "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "API"],
-     "description": "This is a weather dashboard with form inputs that enables traveler to see the weather outlook for multiple cities so that they can plan a trip accordingly"
-  },
-   {
-    "id": "2",
-    "url": "https://github.com/23birola/work-day-scheduler-pobedynska", 
-    "pageUrl":  "https://23birola.github.io/work-day-scheduler-pobedynska/",
-    "name": "Work Day Scheduler",
-    "img": "./images/projects/project-2.png",
-    "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "JQuery"],
-     "description": "A simple calendar application that allows a user to save events for each hour of the day by modifying starter code"
-  },
-     {
-    "id": "3",
-    "url": "https://github.com/23birola/countries-quiz-pobedynska", 
-    "pageUrl":  "https://23birola.github.io/countries-quiz-pobedynska/",
-    "name": "Countries Quiz",
-    "img": "./images/projects/project-3.png",
-    "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery"],
-     "description": "The 'Countries Quiz' is an engaging and educational quiz game that challenges players with questions about various countries and their capitals."
-  },
-
-    {
-    "id": "4",
     "url": "https://github.com/obutsan/beloved-recipes", 
     "pageUrl":  "https://obutsan.github.io/beloved-recipes/",
     "name": "Beloved Recipes",
@@ -38,13 +10,43 @@
   },
 
   {
-    "id": "5",
-    "url": "https://github.com/23birola/safe-password-generator", 
-    "pageUrl":  "https://23birola.github.io/safe-password-generator/",
-    "name": "Password generator",
-    "img": "./images/projects/project-5.png",
+    "id": "2",
+    "url": "https://github.com/AoifeEdX/code-quest", 
+    "pageUrl":  "https://codequest-game.netlify.app/",
+    "name": "Code Quest",
+    "img": "./images/projects/project-7.gif",
     "skills": ["JavaScript", "HTML5", "CSS3"],
     "description": "Password Generator is an application that generate a random password based on selected criteria."
+  },
+
+  {
+    "id": "3",
+    "url": "https://github.com/23birola/weather-dashboard-pobedynska", 
+    "pageUrl":  "https://23birola.github.io/weather-dashboard-pobedynska/",
+    "name": "Weather dashbord",
+    "img": "./images/projects/project-1.png",
+    "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "API"],
+     "description": "This is a weather dashboard with form inputs that enables traveler to see the weather outlook for multiple cities so that they can plan a trip accordingly"
+  },
+
+   {
+    "id": "4",
+    "url": "https://github.com/23birola/work-day-scheduler-pobedynska", 
+    "pageUrl":  "https://23birola.github.io/work-day-scheduler-pobedynska/",
+    "name": "Work Day Scheduler",
+    "img": "./images/projects/project-2.png",
+    "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "JQuery"],
+     "description": "A simple calendar application that allows a user to save events for each hour of the day by modifying starter code"
+  },
+
+     {
+    "id": "5",
+    "url": "https://github.com/23birola/countries-quiz-pobedynska", 
+    "pageUrl":  "https://23birola.github.io/countries-quiz-pobedynska/",
+    "name": "Countries Quiz",
+    "img": "./images/projects/project-3.png",
+    "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery"],
+     "description": "The 'Countries Quiz' is an engaging and educational quiz game that challenges players with questions about various countries and their capitals."
   },
 
   {
