@@ -31,12 +31,12 @@
 
    {
     "id": "4",
-    "url": "https://github.com/23birola/work-day-scheduler-pobedynska", 
-    "pageUrl":  "https://23birola.github.io/work-day-scheduler-pobedynska/",
+    "url": "https://github.com/23birola/portfolio-pobedynska-react", 
+    "pageUrl":  "https://portfolio-pobedynska.netlify.app",
     "name": "Work Day Scheduler",
     "img": "./images/projects/project-2.png",
-    "skills": ["HTML", "CSS", "Bootstrap", "DayJS", "JavaScript", "JQuery"],
-     "description": "A simple calendar application that allows a user to save events for each hour of the day by modifying starter code"
+    "skills": ["HTML", "CSS", "Tailwind", "JavaScript", "React"],
+     "description": "Portfolio is a project showcases my skills, work samples, and contact information"
   },
 
      {
