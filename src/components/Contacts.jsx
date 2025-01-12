@@ -37,12 +37,12 @@ export default function Form() {
     const { userName, email, message } = formData;
   
     if (!userName || !email) {
-      toast.error('Будь ласка, заповніть ваше ім’я та електронну пошту.');
+      toast.error('Enter valid name and email.');
       return;
     }
   
     if (!isValidEmail(email)) {
-      toast.error('Будь ласка, введіть дійсну електронну пошту.');
+      toast.error('Enter valid email.');
       return;
     }
   
