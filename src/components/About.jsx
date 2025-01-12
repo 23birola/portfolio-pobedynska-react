@@ -7,7 +7,7 @@ export default function About() {
       <div className='info-wrapper'>
         <p>I am a passionate frontend developer specializing in creating responsive
         and user-friendly web applications. With a strong focus on modern
-        technologies like HTML, CSS, Java Script, React, Tailwind, Superbase, MongoDB and Next.js , I aim to deliver
+        technologies like HTML, CSS, Java Script, React, Tailwind, Supabase, MongoDB and Next.js , I aim to deliver
         exceptional user experiences.</p>
       </div>
       <h2>Skills</h2>
