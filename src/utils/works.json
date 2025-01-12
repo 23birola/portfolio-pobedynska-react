@@ -15,8 +15,8 @@
     "pageUrl":  "https://codeeequest.netlify.app/",
     "name": "Code Quest",
     "img": "./images/projects/project-7.gif",
-    "skills": ["JavaScript", "React", "HTML", "CSS3", "Tailwind"],
-    "description": "This app designed to help players learn to code through fun and engaging games"
+    "skills": ["JavaScript", "HTML5", "CSS3"],
+    "description": "Password Generator is an application that generate a random password based on selected criteria."
   },
 
   {
