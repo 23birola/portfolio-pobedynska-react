@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHtml5,
@@ -14,7 +15,7 @@ import TailwindLogo from '/images/technologies/tailwind.svg';
 const links = [
   { name: 'Projects', href: '/work' },
   { name: 'Contacts', href: '/contacts' },
-  { name: 'My CV', href: 'https://drive.google.com/file/d/1BK8SgnWA4U_hEHC_H_VwCcngRqfUfimw/view?usp=sharing' },
+  { name: 'My CV', href: 'https://drive.google.com/file/d/1i-Kg1QsYfWNV22yOSRp7-UIQhwlz6p6b/view?usp=drive_link' },
 ]
 
 
@@ -113,11 +114,24 @@ export default function Jumbotron() {
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-3 gap-x-5 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-            {links.map((link) => (
-              <a key={link.name} href={link.href} className="animate-pulse">
-                {link.name} <span aria-hidden="true">&rarr;</span>
-              </a>
-            ))}
+            {links.map((link) => {
+            const isExternal = link.href.startsWith("http"); // зовнішні лінки
+            return isExternal ? (
+              <a
+              key={link.name}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="animate-pulse"
+              >
+              {link.name} <span aria-hidden="true">&rarr;</span>
+               </a>
+              ) : (
+              <Link key={link.name} to={link.href} className="animate-pulse">
+              {link.name} <span aria-hidden="true">&rarr;</span>
+              </Link>
+               );
+              })}
           </div>
           </div>
       </div>
