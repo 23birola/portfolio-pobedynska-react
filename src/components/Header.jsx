@@ -69,7 +69,7 @@ export default function Navigation() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1BK8SgnWA4U_hEHC_H_VwCcngRqfUfimw/view?usp=sharing"
+                href="https://drive.google.com/file/d/1i-Kg1QsYfWNV22yOSRp7-UIQhwlz6p6b/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-blue-500"
