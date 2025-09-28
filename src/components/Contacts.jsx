@@ -116,13 +116,13 @@ export default function Form() {
       <div className="flex flex-col items-start space-y-7">
         <h3 className="text-xl font-semibold">Get in Touch</h3>
         <div className="flex space-x-4">
-          <a href="https://github.com" className="text-gray-600 hover:text-black transition-transform transform hover:scale-110">
+          <a href="https://github.com/obutsan" className="text-gray-600 hover:text-black transition-transform transform hover:scale-110">
           <FontAwesomeIcon icon={faGithub} className="text-500 text-2xl" />
           </a>
-          <a href="https://linkedin.com" className="text-blue-600 hover:text-blue-800 transition-transform transform hover:scale-110">
+          <a href="https://www.linkedin.com/in/olha-pobedynska" className="text-blue-600 hover:text-blue-800 transition-transform transform hover:scale-110">
           <FontAwesomeIcon icon={faLinkedin} className="text-500 text-2xl" />
           </a>
-          <a href="https://wa.me/+447774619716" className="text-green-500 hover:text-green-700 transition-transform transform hover:scale-110">
+          <a href="https://wa.me/+380994075995" className="text-green-500 hover:text-green-700 transition-transform transform hover:scale-110">
           <FontAwesomeIcon icon={faWhatsapp} className="text-green-500 text-2xl" />
           </a>
           <a href="mailto:olha.pobedynska@gmail.com" className="text-500 hover:text-700 transition-transform transform hover:scale-110">
@@ -131,7 +131,7 @@ export default function Form() {
         </div>
         <button
   className="bg-green-500 shadow-inner text-white px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 mt-5"
-  onClick={() => window.open('https://drive.google.com/file/d/1mBndC2zpAL0AQw9aNQXW945uq9eBQPb5/view?usp=sharing', '_blank')}
+  onClick={() => window.open('https://drive.google.com/file/d/1i-Kg1QsYfWNV22yOSRp7-UIQhwlz6p6b/view?usp=drive_link', '_blank')}
 >
   My CV
 </button>
