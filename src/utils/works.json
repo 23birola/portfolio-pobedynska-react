@@ -51,11 +51,11 @@
 
   {
     "id": "6",
-    "url": "https://github.com/23birola/goit-react-hw-05-movies", 
-    "pageUrl":  "https://23birola-goit-react-hw-05-movies.netlify.app/",
-    "name": "Movie Finder",
+    "url": "https://jove-egypt.com/", 
+    "pageUrl":  "https://jove-egypt.com/",
+    "name": "Jovesolides",
     "img": "./images/projects/project-6.png",
-    "skills": ["HTML", "CSS", "JavaScript", "React", "Hooks"],
-     "description": "The application that allow an user to find the movie they like"
+    "skills": ["HTML", "CSS", "Wordpress", "Nicepage", "Leaflet"],
+     "description": "The responsive website for a non-profit organization"
   }
 ]
